@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #7ADFFF;
+}
+
+
+.container {
+ max-width: 1200px;
+ min-height: 800px;
+ margin: 72px auto;
+ padding: 20px;
+} 
+
+.box {
+  min-height: 180px;
+  width: 100%;
+  background-color: white;
+}
+
+.grid {
+  display:  grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 1199px) and (min-width: 451px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
