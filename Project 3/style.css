@@ -5,13 +5,13 @@
 }
 
 body {
-  background-color: #7ADFFF;
+  background-color: #17404d;
 }
 
 .container {
   max-width: 1200px;
   min-height: 800px;
-  margin: 52px auto;
+  margin: 100px auto;
   padding: 0 16px;
 }
 
@@ -26,29 +26,31 @@ body {
 }
 
 
+.box {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .box1 {
   grid-area: box1;
-  background: #4F8EEC;
+  background: #0b59cd;
   /* width: 895px; */
   /* height: 378px; */
 }
 
 .box2 {
   grid-area: box2;
-  background: #0A1E3C;
+  background: #0ac4b1;
   /* width: 895px; */
   /* height: 548px; */
 }
 
 .box3 {
   grid-area: box3;
-  background: #005C79;
+  background: #b09107;
 }
 
 
-
-@media screen and (width > 1200px) {
-}
 
 @media screen and (width < 1200px) and (width> 450px) {
   .grid {
