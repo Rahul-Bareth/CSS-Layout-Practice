@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7ADFFF;
+}
+
+.container {
+  max-width: 1200px;
+  min-height: 800px;
+  margin: 52px auto;
+  padding: 0 16px;
+}
+
+
+.grid {
+ display: grid;
+ grid-template-areas: "box1 box2 box3"
+}
+
+
+.box1 {
+  grid-area: rahul;
+  background: #4F8EEC;
+  /* width: 895px; */
+  /* height: 378px; */
+}
+
+.box2 {
+  grid-area: chaman;
+  background: #0A1E3C;
+  /* width: 895px; */
+  /* height: 548px; */
+}
+
+.box3 {
+  grid-area: ankit;
+  background: #005C79;
+}
+
+
+
+@media screen and (width > 1200px) {
+}
+
+@media screen and (width < 1200px) and (width> 450px) {
+  
+}
+
+
+@media screen and (width < 410px) {
+  
+}
