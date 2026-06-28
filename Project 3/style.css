@@ -18,26 +18,30 @@ body {
 
 .grid {
  display: grid;
- grid-template-areas: "box1 box2 box3"
+ grid-template-areas: 
+ "box1 box1 box1 box3" 
+ "box2 box2 box2 box3"
+ "box2 box2 box2 box3";
+  gap: 20px;
 }
 
 
 .box1 {
-  grid-area: rahul;
+  grid-area: box1;
   background: #4F8EEC;
   /* width: 895px; */
   /* height: 378px; */
 }
 
 .box2 {
-  grid-area: chaman;
+  grid-area: box2;
   background: #0A1E3C;
   /* width: 895px; */
   /* height: 548px; */
 }
 
 .box3 {
-  grid-area: ankit;
+  grid-area: box3;
   background: #005C79;
 }
 
@@ -47,10 +51,34 @@ body {
 }
 
 @media screen and (width < 1200px) and (width> 450px) {
-  
+  .grid {
+    gap: 16px;
+    grid-template-areas: 
+    "box1 box1 box3"
+    "box2 box2  box3"
+    "box2 box2 box3"
+    "box2 box2 box3"
+    "box2 box2 box3"
+   
+  }
 }
 
 
 @media screen and (width < 410px) {
-  
+  .container {
+    margin: 24px auto;
+  }
+  .grid {
+    gap: 16px;
+    grid-template-areas:
+     "box1"
+     "box1" 
+     "box2"
+     "box2"
+     "box2"
+     "box2"
+     "box3"
+     "box3"
+     "box3";
+  }
 }
