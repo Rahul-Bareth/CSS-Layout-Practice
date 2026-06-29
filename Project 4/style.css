@@ -5,10 +5,10 @@
 }
 
 :root {
-  --body:  #A70000;
-  --brown:  #5E0808;
-  --red: #FF0000;
-  --card: #FFD8D8;
+  --body:  #01090af6;
+  --brown:  #16213E;
+  --red: #00C2FF;
+  --card: #2DFF7A;
 }
 
 body {
@@ -96,8 +96,6 @@ nav {
 
 .line-container {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   flex-direction: column;
   gap: 12px;
   width: 100%;
@@ -109,22 +107,6 @@ nav {
   height: 24px;
 }
 
-
-
-
-
-
-
-
-
-
-@media screen and (width > 1200px) {
-  
-}
-
-@media screen and (width < 1200px) and (width> 450px) {
-
-}
 
 
 @media screen and (width < 600px) {
@@ -139,8 +121,8 @@ nav {
   }
 
   .user {
-    height: 47px;
-    min-width: 47px;
+    height: 46px;
+    min-width: 46px;
     margin-left: 5px;
     border-radius: 47px;
   }
