@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg:         #9DC783;
+  --container:  #fff;
+  --red:        #D01010;
+  --dark-green: #0AAE42;
+  --light-green:#1BFF69;
+
+}
+
+body {
+  background-color: var(--bg);
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+
+@media screen and (width > 1200px) {
+  
+}
+
+@media screen and (width < 1200px) and (width> 450px) {
+  
+}
+
+
+@media screen and (width < 410px) {
+  
+}
