@@ -4,3 +4,203 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: #3f007e;
+  --secondary: #d9d9d9;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  max-width: 100%;
+  margin-top: 24px;
+  margin-left: 32px;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+nav {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 32px;
+}
+
+.links {
+  display: flex;
+  width: 488px;
+  gap: 8px;
+}
+
+.logo {
+  width: 160px;
+  background: var(--primary);
+  margin-right: 8px;
+}
+
+a {
+  background: var(--primary);
+  flex: 1;
+}
+
+.search-bar {
+  width: 370px;
+  display: flex;
+  gap: 12px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  flex-grow: 1;
+  border-radius: 28px;
+  gap: 10px;
+  padding: 10px 14px;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: var(--primary);
+  flex-shrink: 1;
+}
+
+.search,
+.circle .recrangle .square {
+  background: var(--primary);
+  height: 40px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: var(--secondary);
+}
+
+.rectangle {
+  height: 20px;
+  width: 231px;
+  background: var(--secondary);
+}
+
+.square {
+  height: 20px;
+  width: 20px;
+  background: var(--secondary);
+}
+
+/* --TAGS--*/
+
+.tags {
+  display: flex;
+  height: 32px;
+  margin-top: 24px;
+  gap: 10px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  max-width: 100%;
+}
+
+.tags span {
+  min-width: 80px;
+  border-radius: 21px;
+  background: var(--primary);
+}
+
+.ads {
+  height: 321px;
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+
+.ads span {
+  min-width: 489px;
+  border-radius: 9px;
+  background: var(--primary);
+}
+
+.bar {
+  width: 285px;
+  height: 40px;
+  background: var(--primary);
+}
+
+.cards {
+  height: 133px;
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  gap: 12px;
+}
+
+.card {
+  min-width: 388px;
+  border-radius: 8px;
+  background: var(--primary);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.line1 {
+  height: 16px;
+  width: 170px;
+  background: var(--secondary);
+}
+
+.box-container {
+  height: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.box1 {
+  background: var(--secondary);
+  width: 24px;
+}
+
+.box2 {
+  background: var(--secondary);
+  width: 48px;
+}
+
+.line2 {
+  height: 8px;
+  width: 170px;
+  background: var(--secondary);
+}
+
+/* big display */
+@media screen and (width > 1200px) {
+}
+/* Tablet */
+@media screen and (width < 1200px) and (width > 450px) {
+}
+
+/* Phone  */
+@media screen and (width < 600px) {
+}
