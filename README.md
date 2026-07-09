@@ -1,6 +1,5 @@
 # CSS Layout Practice
 
-A collection of responsive layouts built with HTML5 and CSS3 to improve my frontend development skills. Each project focuses on writing clean, semantic code while practicing Flexbox, CSS Grid, responsive design, and modern layout techniques.
+A collection of responsive websites built with HTML5 and CSS3 to strengthen my frontend development skills. Each project focuses on clean, semantic code, modern UI design, Flexbox, CSS Grid, and responsive layouts.
 
-**Progress:** 6/9 Projects Completed 🚀
-
+**Progress:** 8/9 Projects Completed 🚀
