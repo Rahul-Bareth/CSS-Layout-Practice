@@ -268,9 +268,10 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #B44CFF;
+  background: linear-gradient(318deg, #b44cff 0, #560d95 100%); 
   border-radius: 20px;
   gap: 50px;
+  margin-bottom: 100px;
 }
 
 .ready-section h2 {
@@ -284,4 +285,92 @@ button {
   font-weight: 500;
   height: 80px;
   width: 255px;
+}
+
+/* Footer-Section */
+
+footer {
+  display: flex;
+  margin-bottom: 48px;
+  font-size: 18px;
+}
+
+.logo {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.links-container {
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  line-height: 31px;
+}
+
+
+.newsletter h4 {
+  font-size: 25px;
+}
+
+
+
+.input-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px
+}
+
+input {
+  height: 50px;
+  width: 345px;
+  background: #13134d;
+  border-radius: 70px;
+  border: none;
+  padding: 0 20px;
+  font-size: 17px;
+}
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  min-width: 115px;
+  position: absolute;
+  right: 0;
+  color: white;
+  background: var(--primary-color);
+  font-weight: 500;
+  letter-spacing: 2px;
+  border: none;
+}
+
+
+.wrapper {
+  overflow: hidden;
+  z-index: 10;
+  position: relative;
+}
+
+
+.grad-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
