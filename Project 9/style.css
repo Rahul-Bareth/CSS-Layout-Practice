@@ -264,25 +264,24 @@ p {
   gap: 28px;
 }
   
-     .key-feature {
-        h3 {
+     
+      .key-feature h3 {
           margin-bottom: 16px;
         }
         ul {
           padding-left: 20px;
+        }
           li {
             margin-top: 8px;
             line-height: 24px;
           }
-        }
-
-        }
+        
 
 
-        .image-container {
+         .image-container {
           display: flex;
-          justify-content: center;
-        }
+          justify-content: center; 
+        }  
 
     
       .technology {
@@ -297,5 +296,79 @@ p {
             line-height: 24px;
           }
           }
-
           }
+
+  /* My  Skils Section */
+
+  .skill-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px 80px;
+    background: var(--bg-secondary);
+    gap: 32px;
+  
+  }
+
+   h2 {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+
+/* Contact Section */
+
+.contact-section {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 80px;
+}
+
+
+.contact-section h2 {
+  text-align: start;
+}
+
+
+.image-container  img{
+  height: 80vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+
+.content p {
+  max-width: 60%;
+}
+
+.linkedin-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Bar-Section */
+ 
+.bar {
+  background: var(--green);
+  border-radius: 9999px;
+  height: 5px;
+}
+
+/* CSS Styling Completes */
+
